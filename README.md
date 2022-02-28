@@ -39,8 +39,7 @@ $ source env/bin/activate
 + After that you may start hearing with celery by typing:
 
 ```console
-$ source env/bin/activate
-$ sudo systemctl status rabbitmq-server 
+$ celery -A config  worker -l info
 ```
 Go to the link [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/docs/ "Visit the documentation!") to see the documentation of Encryption API
 
