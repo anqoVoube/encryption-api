@@ -25,7 +25,7 @@ $ python3 manage.py runserver
 <hr>
 
 ### Running rabbitmq and celery
->Note, that you need RabbitMQ broker be installed in your OC
+>Note, that you need RabbitMQ broker be installed in your OS
 
 + Firstly, start RabbitMQ server:
 ```console
