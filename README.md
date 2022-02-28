@@ -22,7 +22,7 @@ $ python3 manage.py runserver
 
 Go to the link [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/docs/ "Visit the documentation!") to see the documentation of Encryption API
 
-___:
+<hr>
 
 *If you have any questions related to the usage of this API, feel free to contact me:*
 Telegram: [@youngerwolf](https://t.me/youngerwolf "Contact me via telegram!")
