@@ -15,7 +15,7 @@ $ python3 manage.py migrate verify
 $ python3 manage.py migrate
 ```
 
-+From now on, you are ready to go:
++ From now on, you are ready to go:
 ```console
 $ python3 manage.py runserver
 ```
