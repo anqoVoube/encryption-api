@@ -1,7 +1,7 @@
 # Encryptino API
 ### Easily encrypt and decrypt your private messages
 
-## Usage
+## Installation
 ### Running django server
 
 + In order to create an environment for libraries you need create one:
