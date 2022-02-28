@@ -4,13 +4,13 @@
 ## Installation
 ### Running django server
 
-+ In order to create an environment for libraries you need create one:
++ In order to create an environment for libraries you need create one in main folder:
 ```console
 $ python3 -m venv env
 $ source env/bin/activate
 ```
 >Note, that I am using python3 (If you have a single python v3 without python v2, you can just type `python`)
-+ Install required libraries by going to the mail folder:
++ Install required libraries:
 ```console
 $ pip install -r requirements.txt
 ```
@@ -31,7 +31,7 @@ $ python3 manage.py runserver
 ### Running rabbitmq and celery
 >Note, that you need RabbitMQ broker be installed in your OS
 
-+ Firstly, start RabbitMQ server:
++ Firstly, open up new shell and start RabbitMQ server:
 ```console
 $ sudo systemctl start rabbitmq-server 
 ```
@@ -39,7 +39,7 @@ You can check whether it is working or not by:
 ```console
 $ sudo systemctl status rabbitmq-server 
 ```
-+ Go to the main folder directory of project and activate virtual environment you've already installed:
++ Open new shell, then go to the main folder directory of project and activate virtual environment, you've already installed:
  ```console
 $ source env/bin/activate
 ```
