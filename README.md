@@ -1,7 +1,9 @@
 # Encryptino API
 ### Easily encrypt and decrypt your private messages
 
-##Usage
+## Usage
+### Running django server
+
 + In order to create an environment for libraries you need create one:
 ```console
 $ python3 -m venv env
@@ -19,8 +21,29 @@ $ python3 manage.py migrate
 ```console
 $ python3 manage.py runserver
 ```
+### Running rabbitmq and celery
+>Note, that you need RabbitMQ broker be installed in your OC
 
++ Firstly, start RabbitMQ server:
+```console
+$ sudo systemctl start rabbitmq-server 
+```
+You can check whether it is working or not by:
+```console
+$ sudo systemctl status rabbitmq-server 
+```
++ Go to the main folder directory of project and activate virtual environment you've already installed:
+ ```console
+$ source env/bin/activate
+```
++ After that you may start hearing with celery by typing:
+
+```console
+$ source env/bin/activate
+$ sudo systemctl status rabbitmq-server 
+```
 Go to the link [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/docs/ "Visit the documentation!") to see the documentation of Encryption API
+
 
 <hr>
 
