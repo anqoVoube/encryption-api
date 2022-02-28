@@ -26,6 +26,6 @@ Go to the link [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/docs/ "Visit 
 
 *If you have any questions related to the usage of this API, feel free to contact me:*
 
-<a href="https://t.me/youngerwolf"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/telegram_button_icon_151837.png" width = "120"/></a>
+Telegram: [@youngerwolf](t.me/yongerwolf "Contact me via telegram!")
 
 Gmail: [milsolve@gmail.com](mailto:milsolve@gmail.com "Contact me via gmail!")
