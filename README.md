@@ -10,6 +10,10 @@ $ python3 -m venv env
 $ source env/bin/activate
 ```
 >Note, that I am using python3 (If you have a single python v3 without python v2, you can just type `python`)
++ Install required libraries by going to the mail folder:
+```console
+$ pip install -r requirements.txt
+```
 + After that you can start the migrations:
 ```console
 $ python3 manage.py makemigrations verify
