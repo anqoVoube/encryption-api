@@ -1,4 +1,4 @@
-# Encryptino API
+# Encryption API
 ### Easily encrypt and decrypt your private messages
 
 ## Installation
